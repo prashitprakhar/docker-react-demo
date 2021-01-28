@@ -4,4 +4,4 @@ services:
 before_install:
   - docker build -t prashitprakhar/docker-react-demo -f Dockerfile.dev .
 script:
-  - docker run prashitprakhar/docker-react-demo npm run test -- --coverage
+  - docker run -e CI=true prashitprakhar/docker-react-demo npm run test -- --coverage
