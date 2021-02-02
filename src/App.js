@@ -12,9 +12,7 @@ function App() {
         <p>
           Hi There !!!
         </p>
-        <p>
-        Bye
-        </p>
+
         <a
           className="App-link"
           href="https://reactjs.org"
